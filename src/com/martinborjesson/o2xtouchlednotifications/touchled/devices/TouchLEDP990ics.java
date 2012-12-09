@@ -64,8 +64,8 @@ public class TouchLEDP990ics extends TouchLED {
 	    	is.close();
 	    	String valueStr = new String(buf, 0, p);
 	    	Logger.logDebug("Read Touch LED value: " + valueStr);
-	    	valueStr = valueStr.substring(valueStr.lastIndexOf(" ")+1);
-	    	valueStr = valueStr.substring(0, valueStr.indexOf("uA"));
+//	    	valueStr = valueStr.substring(valueStr.lastIndexOf(" ")+1);
+//	    	valueStr = valueStr.substring(0, valueStr.indexOf("uA"));
 
 	    	try {
 	        	value = Integer.valueOf(valueStr)/100;
