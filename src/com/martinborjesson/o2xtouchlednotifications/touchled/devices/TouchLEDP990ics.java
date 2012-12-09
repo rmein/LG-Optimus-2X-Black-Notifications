@@ -21,7 +21,7 @@ import java.io.*;
 import com.martinborjesson.o2xtouchlednotifications.touchled.*;
 import com.martinborjesson.o2xtouchlednotifications.utils.*;
 
-public class TouchLEDP990 extends TouchLED {
+public class TouchLEDP990ics extends TouchLED {
   static public final File WLED_FILE = new File("/sys/devices/platform/star_led/leds/star_led/brightness");
 	static public final int MIN = 0;
 	static public final int MAX = 20;
